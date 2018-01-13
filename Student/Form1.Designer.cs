@@ -33,7 +33,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textName = new System.Windows.Forms.TextBox();
             this.textStudentNo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -62,7 +62,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textName);
             this.groupBox1.Controls.Add(this.textStudentNo);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
@@ -84,13 +84,13 @@
             this.textBox3.Size = new System.Drawing.Size(225, 39);
             this.textBox3.TabIndex = 1;
             // 
-            // textBox2
+            // textName
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.textBox2.Location = new System.Drawing.Point(386, 60);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 39);
-            this.textBox2.TabIndex = 1;
+            this.textName.BackColor = System.Drawing.SystemColors.Highlight;
+            this.textName.Location = new System.Drawing.Point(386, 60);
+            this.textName.Name = "textName";
+            this.textName.Size = new System.Drawing.Size(181, 39);
+            this.textName.TabIndex = 1;
             // 
             // textStudentNo
             // 
@@ -216,7 +216,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textName;
         private System.Windows.Forms.TextBox textStudentNo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
